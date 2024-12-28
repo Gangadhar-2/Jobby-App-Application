@@ -1,0 +1,31 @@
+.filters {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-left: 0px;
+  padding-left: 5px;
+}
+.filter-item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5px;
+}
+.checkbox {
+  margin-right: 10px;
+}
+.label {
+  color: white;
+  font-family: Roboto;
+}
+.radio {
+  margin-right: 10px;
+}
+.line {
+  color: #64748b;
+}
+.salary-head {
+  color: white;
+  font-family: Roboto;
+  font-size: 20px;
+  margin-bottom: 0px;
+}

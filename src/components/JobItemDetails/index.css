@@ -1,0 +1,75 @@
+.des-head {
+  color: white;
+  font-family: Roboto;
+  font-size: 20px;
+}
+.skills-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.skill-item {
+  margin-right: 30px;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.skill-icon {
+  min-height: 50px;
+  width: 50px;
+  margin-right: 5px;
+}
+.company-img {
+  margin-top: 0px;
+  margin-left: 10px;
+  height: 100px;
+  width: 150px;
+  border-radius: 10px;
+}
+.jobDetails-container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  background-color: #7e858e;
+  border-radius: 10px; /* Ensure it doesn't exceed the parent container width */
+  overflow: auto; /* Hide overflowing content if necessary */
+  word-wrap: break-word;
+}
+.bg {
+  background-color: black;
+  padding: 20px;
+  overflow-x: hidden;
+}
+.similarJobs-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.skills container {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+.skills-label {
+  color: white;
+  font-family: Roboto;
+}
+.visit-link {
+  display: flex;
+  align-items: center;
+  color: #6366f1;
+  text-decoration: none;
+}
+
+.visit-link svg {
+  margin-left: 5px; /* Adds spacing between "Visit" text and the icon */
+}
+
+.link-icon {
+  color: #6366f1;
+}
+.similar-head {
+  color: white;
+  font-family: Roboto;
+  font-size: 20px;
+}

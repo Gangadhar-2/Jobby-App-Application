@@ -1,0 +1,11 @@
+.list-item {
+  margin-right: 10px;
+  border-radius: 10px;
+  background-color: #7e858e;
+  padding: 10px;
+}
+.head-des{
+    color: white;
+    font-family: Roboto;
+    font-size: 20px;
+}

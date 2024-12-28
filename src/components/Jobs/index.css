@@ -1,0 +1,9 @@
+.jobs-container {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 20px;
+  margin: 0; /* Ensure no unintended margins */
+  align-items: flex-start; /* Align items to the top */
+}

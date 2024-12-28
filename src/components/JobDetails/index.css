@@ -1,0 +1,131 @@
+.jobs {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start; /* Ensures children take full width */
+  padding: 20px;
+  width: 100%;
+  /* Ensure the container takes full width */
+}
+.input-container {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-left: 40px;
+}
+.search-input {
+  width: 200px; /* Take full container width */
+  padding-right: 45px; /* Space for the button */
+  height: 40px;
+  background-color: transparent;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #7e858e;
+  box-sizing: border-box;
+}
+.jobs-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  list-style-type: none;
+}
+.job-item {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #7e858e;
+  margin-bottom: 10px;
+}
+.company-logo {
+  margin-right: 10px;
+  border-radius: 10px;
+  height: 50px;
+  width: 50px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.star-icon {
+  color: gold;
+  margin-right: 5px;
+}
+.side {
+  display: flex;
+  flex-direction: row;
+}
+.space {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.location {
+  color: white;
+  margin-right: 5px;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.failure-img {
+  height: 200px;
+  width: 200px;
+}
+.search-btn {
+  position: absolute; /* Overlay the input */
+  right: 5px; /* Place button flush with input edge */
+  top: 50%; /* Vertically center the button */
+  transform: translateY(-50%); /* Adjust for exact centering */
+  height: 30px;
+  width: 30px;
+  background-color: #7e858e;
+  border: none;
+  border-radius: 50%; /* Make it a circle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0; 
+}
+.title {
+  color: white;
+  font-family: Roboto;
+  margin-top: 0px;
+  font-size: 20px;
+}
+.rating-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+}
+.para {
+  color: white;
+  font-family: Roboto;
+  margin-top: 0px;
+  margin-right: 8px;
+}
+.job-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%; /* Take full available width */
+  margin: 0; /* Remove any unintended margins */
+  box-sizing: border-box; /* Ensure padding doesn't add to the width */
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.view-text {
+  color: white;
+  font-family: Roboto;
+}
